@@ -169,10 +169,7 @@ S
 - Ataque de denegación de servicio (DoS): Ataque que tiene por objeto dejar sin servicio a una máquina o recurso, "tirándola" o colapsándola.
 - Hash: Función matemática que transforma cualquier archivo en una secuencia de caracteres única y fija.
 - Mitre ATT&CK: Referencia que se usa para describir las tácticas y técnicas de los atacantes para llevar a cabo un ataque, basándose en la recopilación de información de incidentes.
-- RE&CT Framework: Marco de referencia para la respuesta de incidente, desde la perspectiva del defensor.
-- SOC: Sistema de seguridad que monitoriza y responde a amenazas de seguridad en una red.
-- Playbook: Documento que recoge los pasos y acciones predefinidas para responder a un incidente de seguridad.
-- EDR: Sistema de seguridad que monitoriza y analiza el comportamiento de los "endpoints" (dispositivos), buscando comportamientos sospechosos/maliciosos. Puede responder por sí mismo, por ejemplo, aislando el dispositivo.
+
 
 ### 2.3) Procesos / procedimientos (pasos o checklist)
 - Checklist de contención:
@@ -184,31 +181,6 @@ S
     - Proteger backups y activos críticos.
     - Escalar y comunicar según procedimiento.
     - Documentar: qué, cuándo, quién, por qué.
-
-- Recopilación de evidencia:
-    - 1. Conocimiento y Autorización:
-        - Asegurarse de comprender el alcance de la investigación y los objetivos de la recopilación.
-        - Verificar la autoridad legal para la recopilación (por ejemplo, orden judicial, consentimiento).
-        - El personal encargado debe estar debidamente autorizado y, si es externo, contar con un contrato de servicio o autorización escrita.
-    - 2. Herramientas:
-        - Preparar un kit de herramientas forenses que incluya hardware y software reconocidos. Esto puede incluir:
-            - Dispositivos de bloqueo de escritura (write blockers).
-            - Dispositivos para crear copias forenses/imágenes.
-            - Medios de almacenamiento limpios y suficientes para las copias.
-            - Herramientas para calcular hashes (MD5, SHA-1, SHA-256).
-            - Etiquetas de evidencia.
-            - Bolsas antiestáticas y materiales de embalaje adecuados.
-            - Cámara fotográfica o de vídeo para documentar la escena.
-            - Formularios de cadena de custodia.
-            - Bloc de notas y bolígrafos para la documentación.
-    - 3. Personal:
-        - Asignar personal capacitado en forense digital para realizar la recopilación. En algunos casos, puede ser necesario un equipo de al menos dos personas.
-        - Considerar la necesidad de testigos independientes para dar fe del proceso.
-    - 4. Planificación Previa a la Escena:
-        - La escena hace referencia al lugar donde se encuentra la evidencia digital. Antes de llegar a la escena, es importante:
-        - Revisar los procedimientos predefinidos del laboratorio para la preparación antes de la escena. Dicho de otra forma, tener un plan de acción antes de llegar a la escena en la que se encuentre la evidencia.
-        - Comprender las directrices policiales locales relacionadas con la búsqueda y el decomiso de evidencia.
-        - Si se conoce la presencia de equipos informáticos especializados, considerar la necesidad de personal con formación especializada en la recopilación de evidencia de estos sistemas.
 
 - Recopilación de evidencias:
     - Aseguramiento y Documentación de la Escena:
@@ -240,64 +212,42 @@ S
         - Mantener la evidencia alejada de fuentes magnéticas.
         - Documentar el embalaje de cada elemento de evidencia.
 
+- Almacenamiento de la evidencia:
+    - 1. Recepción y Registro en el Laboratorio:
+        - Al recibir la evidencia en el laboratorio, verificar la integridad del embalaje y documentar su estado.
+        - Registrar formalmente la recepción de cada elemento de evidencia, asignándole un identificador único y actualizando la cadena de custodia.
+        - Realizar una evaluación inicial del estado de los soportes, incluyendo el riesgo de pérdida de datos.
+    - 2. Almacenamiento Físico:
+        - Almacenar la evidencia en un lugar seguro con acceso restringido y controlado. Mantener un registro de quién tiene acceso y cuándo.
+        - Proteger la evidencia de factores ambientales que puedan dañarla (temperatura, humedad, luz, campos magnéticos).
+        - Utilizar armarios o cajas fuertes seguras para el almacenamiento.
+        - Mantener un inventario actualizado de toda la evidencia almacenada.
+    - 3. Almacenamiento Digital (Copias Forenses):
+        - Las copias forenses deben almacenarse en medios seguros y fiables. Considerar el uso de discos cifrados y control de acceso por contraseñas para la evidencia sensible.
+        - Realizar copias de seguridad de las copias forenses y almacenarlas en ubicaciones separadas para evitar la pérdida de datos.
+        - Implementar controles de acceso para asegurar que solo el personal autorizado pueda acceder a las copias digitales de la evidencia.
+        - Mantener un registro de acceso (logs) a las copias digitales de la evidencia.
+        - Considerar la obsolescencia de los medios de almacenamiento a largo plazo y planificar migraciones de datos si es necesario.
+    - 4. Mantenimiento de la Cadena de Custodia:
+        - Documentar cada movimiento o manipulación de la evidencia, incluyendo la fecha, hora, persona responsable y motivo.
+        - Utilizar formularios de cadena de custodia para registrar cada transferencia de posesión.
+    Asegurar que cada persona que manipula la evidencia firme y feche el formulario de cadena de custodia.
+
 ### 2.4) Herramientas / técnicas (si aplica)
-- 
+- Volatility
+- Wireshark
+- dd
+- FTK Imager
+- Autopsy
 
 ### 2.5) Buenas prácticas y errores típicos
 - 
 
 ### 2.6) Glosario mínimo (términos y definiciones cortas)
-- 
-
-
-## 3) (Opcional) Evidencias y recursos usados
-Enlaza aquí evidencias (capturas, logs, configuraciones, salidas de comandos, etc.) si forman parte de tu trabajo.
-
-### Evidencia 1
-- Archivo: `evidencias/01_...`
-- Qué demuestra:
-- Qué he aprendido:
-
-### Evidencia 2
-- Archivo: `evidencias/02_...`
-- Qué demuestra:
-- Qué he aprendido:
-
-
-## 4) Conclusión (cierre)
-- 
-
-Identificar todos los dispositivos electrónicos presentes que puedan contener evidencia.
-Etiquetar cada dispositivo y su cableado de forma clara y segura, sin ocultar números de serie u otra información importante.
-No encender dispositivos apagados ni apagar dispositivos encendidos hasta que se haya evaluado la situación.
-Si un dispositivo encendido muestra información relevante, documentar visualmente lo que se ve en la pantalla.
-Buscar notas, diarios o documentos cerca de los equipos que puedan contener contraseñas u otra información relevante.
-3. Preservación de la Evidencia durante la Recopilación:
-
-Manipular los dispositivos con precaución para evitar daños físicos, incluyendo dobleces o arañazos en los medios.
-Proteger la evidencia de campos magnéticos, descargas electrostáticas, y condiciones ambientales extremas (temperatura, humedad).
-Si se desconecta un dispositivo de la fuente de alimentación, ser consciente de la posible pérdida de datos volátiles y de la limitada vida de las baterías. Priorizar el análisis de dispositivos con riesgo de pérdida de energía.
-Para dispositivos conectados a redes, considerar el aislamiento de la red para evitar alteraciones remotas.
-4. Adquisición de Evidencia en la Escena (si es necesario):
-
-Si se realiza la adquisición en la escena, utilizar dispositivos de bloqueo de escritura. Es decir, no permitir que se escriba en los dispositivos durante la adquisición.
-Crear una copia forense (clon o imagen) del medio de almacenamiento utilizando herramientas forenses validadas.
-Calcular el hash del original antes de la copia y el hash de la copia después de la creación para verificar la integridad. Documentar los valores hash y el algoritmo utilizado.
-5. Embalaje y Transporte:
-
-Una vez documentada y (si es necesario) copiada la evidencia, embalarla de forma segura para su transporte al laboratorio.
-Utilizar bolsas antiestáticas para componentes electrónicos y medios magnéticos. Evitar bolsas de plástico estándar.
-Evitar doblar, golpear o exponer la evidencia a condiciones dañinas durante el transporte.
-Mantener la evidencia alejada de fuentes magnéticas.
-Documentar el embalaje de cada elemento de evidencia.
-### 2.4) Herramientas / técnicas (si aplica)
-- 
-
-### 2.5) Buenas prácticas y errores típicos
-- 
-
-### 2.6) Glosario mínimo (términos y definiciones cortas)
-- 
+- RE&CT Framework: Marco de referencia para la respuesta de incidente, desde la perspectiva del defensor.
+- SOC: Sistema de seguridad que monitoriza y responde a amenazas de seguridad en una red.
+- Playbook: Documento que recoge los pasos y acciones predefinidas para responder a un incidente de seguridad.
+- EDR: Sistema de seguridad que monitoriza y analiza el comportamiento de los "endpoints" (dispositivos), buscando comportamientos sospechosos/maliciosos. Puede responder por sí mismo, por ejemplo, aislando el dispositivo.
 
 
 ## 3) (Opcional) Evidencias y recursos usados
