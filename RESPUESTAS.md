@@ -24,16 +24,16 @@ Pues no conocía gran parte del temario, y las poquisimas cosas que conocía, er
 - La parte de investigación y contención de incidentes, porque se puede aplicar de forma práctica en casi cualquier situación, y es algo que se ve muy poco desarrollado en otros cursos o temarios, siendo muy útil para nuestro futuro trabajo, o en cualquier puesto relacionado con la informática, ya sea en una tienda de informática, coordinador TIC en un colegio o en las empresas en general si no estamos en un puesto de ciberseguridad pura, por lo que me ha parecido lo más interesante de toda la unidad.
 
 ### 1.5) ¿Qué parte recortarías o simplificarías si hubiera menos tiempo? Justifica.
-- 
+- La parte de MITRE ATT&CK, aunque es muy interesante, no creo que sea necesaria para todos los puestos relacionados con la informática, siendo más útil para puestos de ciberseguridad pura, por lo que creo que se podría recortar o simplificar si hubiera menos tiempo. En su lugar, creo que sería más útil conocer los conceptos de ciberseguridad y cómo actuar en caso de incidente, que conocer en profundidad el catálogo de técnicas de MITRE ATT&CK.
 
 ### 1.6) ¿Qué tema has echado en falta o ampliarías? Justifica.
-- 
+- Ampliaría la contención de incidentes y la recopilación de evidencias, ya que me parece lo más importante en caso de un incidente real, ya que no todos los puestos te van a exigir que sepas el catálogo de técnicas de MITRE ATT&CK, pero todos los puestos te van a exigir que sepas cómo actuar en caso de incidente y cómo recopilar evidencias para poder investigar qué ha pasado.
 
 ### 1.7) ¿Qué aplicarías “mañana” en un entorno real con recursos limitados?
-- 
+- Lo que aplicaría sin dudarlo es cómo actuar en un caso de incidente, ya que es donde más se flaquean en las empresas, y es algo que se puede aplicar en cualquier entorno laboral, ya que todos los entornos laborales son susceptibles a incidentes, y saber cómo actuar en caso de incidente es algo que puede salvar a una empresa de perder datos valiosos o de sufrir consecuencias graves (tanto económica como de reputación)
 
 ### 1.8) ¿Qué duda, riesgo o punto crítico te queda abierto tras la unidad?
-- 
+- Me queda la duda de qué hacer si no tienes recursos limitados (por ejemplo, si no tienes acceso a un firewall o a un antivirus), ya que en esos casos no sabes si tus acciones tendrán el efecto deseado.
 
 
 ## 2) Resumen esquematizado (obligatorio)
