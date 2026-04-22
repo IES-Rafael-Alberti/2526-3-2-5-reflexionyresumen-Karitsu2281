@@ -241,7 +241,18 @@ S
 - Autopsy
 
 ### 2.5) Buenas prácticas y errores típicos
-- 
+- Buenas prácticas:
+    - Identificar siempre primero los posibles IoCs para saber si se repite el mismo IoC en otros equipos, mejorando la capacidad de contención
+    - Aislar máquinas de la red comprometiendo lo mínimo posible a la actividad de la empresa
+    - Documentar todo el proceso para tener evidencia de todas las acciones realizadas
+    - Usar playbooks para estandarizar y mejorar la eficiencia de la respuesta
+
+- Errores típicos:
+    - Tomar medidas a lo loco sin realizar una pequeña investigación previa
+    - Apagar el equipo a la mínima que está siendo atacado (aunque sea un ataque que se puede mitigar con otras medidas), perdiendo evidencia volátil y dificultando la investigación y respuesta
+    - No hacer imagen de las evidencias volátiles (aunque haya algo de tiempo antes de que el daño pase a mayores)
+    - No diferenciar bien entre normalización y desconflicción
+    - Realizar solo una correlación, sin tener en cuenta todos los aspectos del incidente
 
 ### 2.6) Glosario mínimo (términos y definiciones cortas)
 - RE&CT Framework: Marco de referencia para la respuesta de incidente, desde la perspectiva del defensor.
