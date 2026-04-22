@@ -1,9 +1,9 @@
 # RESPUESTAS — Reflexión y Resumen (Plantilla genérica)
 
-> **Actividad / ID:**  
-> **Unidad / Tema:**  
-> **Alumno/a:**  
-> **Fecha:**  
+> **Actividad / ID:** 3.a..e
+> **Unidad / Tema:**  Unidad 3
+> **Alumno/a:**  Hugo "Karitsu2281
+> **Fecha:**  22/04/2026
 
 ---
 
@@ -11,16 +11,17 @@
 Responde con **lenguaje técnico** y **argumentos** (no solo opiniones). Si procede, usa ejemplos, riesgos y decisiones justificadas.
 
 ### 1.1) ¿Qué te han parecido los temas tratados en la unidad?
-- 
+- Me han parecido necesarios y útiles, ya que en las empresas que habitualmente trabajan perfiles parecidos a los nuestros no se suele dar tan en profundidad o ni siquiera se llegan a mencionar o poner en práctica, por lo que ha sido una buena oportunidad para aprender sobre ello y ponerlo en práctica en entornos reales.
 
 ### 1.2) ¿Qué ha sido más útil para tu futuro puesto de trabajo? ¿Por qué?
-- 
+- Lo más útil ha sido la contención de incidentes, ya que en la mayoría de incidentes que se ven en las redes, no se suele aplicar los consejos que dan en el propio temario, por lo que bajo presión o sin tiempo es fácil equivocarse, por lo que saber cómo actuar es crucial para no cometer errores al intentar contener el incidente o empeorarlo, siendo presa del pánico al no saber cómo actuar.
+
 
 ### 1.3) ¿Qué partes ya conocías y cuáles han sido nuevas para ti?
-- 
+Pues no conocía gran parte del temario, y las poquisimas cosas que conocía, era a un nivel muy básico, por lo que practicamente todo el temario ha sido nuevo para mi, quitando algunas cosas muy generales que ya había visto por internet, pero sin profundizar tanto como lo hemos hecho en clase.
 
 ### 1.4) ¿Qué concepto/idea te ha llamado más la atención y por qué?
-- 
+- La parte de investigación y contención de incidentes, porque se puede aplicar de forma práctica en casi cualquier situación, y es algo que se ve muy poco desarrollado en otros cursos o temarios, siendo muy útil para nuestro futuro trabajo, o en cualquier puesto relacionado con la informática, ya sea en una tienda de informática, coordinador TIC en un colegio o en las empresas en general si no estamos en un puesto de ciberseguridad pura, por lo que me ha parecido lo más interesante de toda la unidad.
 
 ### 1.5) ¿Qué parte recortarías o simplificarías si hubiera menos tiempo? Justifica.
 - 
