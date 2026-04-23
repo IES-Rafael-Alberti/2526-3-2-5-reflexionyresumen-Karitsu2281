@@ -283,15 +283,15 @@ S
 ## 3) (Opcional) Evidencias y recursos usados
 Enlaza aquí evidencias (capturas, logs, configuraciones, salidas de comandos, etc.) si forman parte de tu trabajo.
 
-### Evidencia 1
-- Archivo: `evidencias/01_...`
-- Qué demuestra:
-- Qué he aprendido:
+### Recurso 1
+- Archivo: `evidencias/01_React-Navigator.png`
+- Qué demuestra: Este archivo demuestra como mediante las opciones del React-Navigator podemos ver toda la información de la red y sus dispositivos.
+- Qué he aprendido: He aprendido como mediante una herramienta gráfica podemos ver todo lo que nos puede proporcionar React-Navigator, de forma muy sencilla de entender.
 
-### Evidencia 2
-- Archivo: `evidencias/02_...`
-- Qué demuestra:
-- Qué he aprendido:
+### Recurso 2
+- Archivo: `evidencias/02_cisagov.png`
+- Qué demuestra: Este archivo demuestra la guía proporcionada para la respuesta ante un ataque de ransomware.
+- Qué he aprendido: He aprendido los pasos que se deben seguir para responder ante un ataque de ransomware, desde la preparación hasta la recuperación, y sobre todo, que NO hay que pagar el rescate, ya que no hay garantía de que se recuperen los archivos y se financia al atacante.
 
 
 ## 4) Conclusión (cierre)
