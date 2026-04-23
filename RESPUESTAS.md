@@ -14,23 +14,23 @@ Responde con **lenguaje técnico** y **argumentos** (no solo opiniones). Si proc
 - Me han parecido necesarios y útiles, ya que en las empresas que habitualmente trabajan perfiles parecidos a los nuestros no se suele dar tan en profundidad o ni siquiera se llegan a mencionar o poner en práctica, por lo que ha sido una buena oportunidad para aprender sobre ello y ponerlo en práctica en entornos reales.
 
 ### 1.2) ¿Qué ha sido más útil para tu futuro puesto de trabajo? ¿Por qué?
-- Lo más útil ha sido la contención de incidentes, ya que en la mayoría de incidentes que se ven en las redes, no se suele aplicar los consejos que dan en el propio temario, por lo que bajo presión o sin tiempo es fácil equivocarse, por lo que saber cómo actuar es crucial para no cometer errores al intentar contener el incidente o empeorarlo, siendo presa del pánico al no saber cómo actuar.
+- Lo más útil ha sido la contención de incidentes, ya que en la mayoría de incidentes que se ven en las redes, no se suele aplicar los consejos que dan en el propio temario, por lo que bajo presión o sin tiempo es fácil equivocarse, por lo que saber cómo actuar es crucial para no cometer errores al intentar contener el incidente o empeorarlo, siendo presa del pánico al no saber como podría reaccionar a tal cosa.
 
 
 ### 1.3) ¿Qué partes ya conocías y cuáles han sido nuevas para ti?
-Pues no conocía gran parte del temario, y las poquisimas cosas que conocía, era a un nivel muy básico, por lo que practicamente todo el temario ha sido nuevo para mi, quitando algunas cosas muy generales que ya había visto por internet, pero sin profundizar tanto como lo hemos hecho en clase.
+Pues no conocía gran parte del temario, y las poquisimas cosas que conocía, era a un nivel muy básico, por lo que practicamente todo el temario ha sido nuevo para mi, quitando algunas cosas muy generales que ya había visto por internet, pero sin profundizar tanto como lo hemos hecho en clase, por lo que prácticamente todo ha sido nuevo para mi.
 
 ### 1.4) ¿Qué concepto/idea te ha llamado más la atención y por qué?
 - La parte de investigación y contención de incidentes, porque se puede aplicar de forma práctica en casi cualquier situación, y es algo que se ve muy poco desarrollado en otros cursos o temarios, siendo muy útil para nuestro futuro trabajo, o en cualquier puesto relacionado con la informática, ya sea en una tienda de informática, coordinador TIC en un colegio o en las empresas en general si no estamos en un puesto de ciberseguridad pura, por lo que me ha parecido lo más interesante de toda la unidad.
 
 ### 1.5) ¿Qué parte recortarías o simplificarías si hubiera menos tiempo? Justifica.
-- La parte de MITRE ATT&CK, aunque es muy interesante, no creo que sea necesaria para todos los puestos relacionados con la informática, siendo más útil para puestos de ciberseguridad pura, por lo que creo que se podría recortar o simplificar si hubiera menos tiempo. En su lugar, creo que sería más útil conocer los conceptos de ciberseguridad y cómo actuar en caso de incidente, que conocer en profundidad el catálogo de técnicas de MITRE ATT&CK.
+- La parte de MITRE ATT&CK, aunque es muy interesante, no creo que sea necesaria para todos los puestos relacionados con la informática, siendo más útil para puestos de ciberseguridad pura, por lo que creo que se podría recortar o simplificar si hubiera menos tiempo. En su lugar, creo que sería más útil conocer el RE&CT Framework para tener una guía sobre como actuar en caso de incidente, ya que no todos los puestos te van a exigir que sepas el catálogo de técnicas de MITRE ATT&CK, pero todos los puestos te van a exigir que sepas cómo actuar en caso de incidente y cómo recopilar evidencias para poder investigar qué ha pasado.
 
 ### 1.6) ¿Qué tema has echado en falta o ampliarías? Justifica.
-- Ampliaría la contención de incidentes y la recopilación de evidencias, ya que me parece lo más importante en caso de un incidente real, ya que no todos los puestos te van a exigir que sepas el catálogo de técnicas de MITRE ATT&CK, pero todos los puestos te van a exigir que sepas cómo actuar en caso de incidente y cómo recopilar evidencias para poder investigar qué ha pasado.
+- Ampliaría la contención de incidentes y la recopilación de evidencias, ya que me parece lo más importante en caso de un incidente real, ya que no todos los puestos te van a exigir que sepas el catálogo de técnicas de MITRE ATT&CK, pero todos los puestos te van a exigir que sepas cómo actuar en caso de incidente y cómo recopilar evidencias para poder investigar qué ha pasado, además de poder conocer más a fondo los programas usados para la recolección de evidencias, como Volatility, FTK Imager, WinHex, Autopsy, etc, ya que nos permitiría tener una visión más práctica de cómo actuar en caso de incidente y cómo recopilar evidencias para poder investigar qué ha pasado, además de conocer las diferentes formas de actuar ante un incidente, ya que no todas las empresas tendrían las mismas políticas.
 
 ### 1.7) ¿Qué aplicarías “mañana” en un entorno real con recursos limitados?
-- Lo que aplicaría sin dudarlo es cómo actuar en un caso de incidente, ya que es donde más se flaquean en las empresas, y es algo que se puede aplicar en cualquier entorno laboral, ya que todos los entornos laborales son susceptibles a incidentes, y saber cómo actuar en caso de incidente es algo que puede salvar a una empresa de perder datos valiosos o de sufrir consecuencias graves (tanto económica como de reputación)
+- Lo que aplicaría sin dudarlo es cómo actuar en un caso de incidente, ya que es donde más se flaquean en las empresas, y es algo que se puede aplicar en cualquier entorno laboral, ya que todos los entornos laborales son susceptibles a incidentes, y saber cómo actuar en caso de incidente es algo que puede salvar a una empresa de perder datos valiosos o de sufrir consecuencias graves (tanto económica como de reputación). 
 
 ### 1.8) ¿Qué duda, riesgo o punto crítico te queda abierto tras la unidad?
 - Me queda la duda de que se pudo explicar de una forma algo más práctica. Por ejemplo, la parte de recopilación de evidencias, lo veo algo ambiguo, y no sabría exactamente cómo actuar en caso de un ataque real, al tratarse de una teoría, en un entorno real, las empresas tendrían diferentes formas de actuar en un incidente similar a los supuestos prácticos que hemos visto, y en un trabajo como junior, no podría saber exactamente como reaccionar ante un incidente real. Por otro lado, aunque la unidad ha sido bastante útil para conocer el proceso de investigacion, recolección de evidencias, intercambio de info crucial y contención de incidente, no me siento muy seguro al respecto, ya que no tengo experiencia previa en este tipo de situaciones ni en ciberseguridad pura y dura, seguro que a la larga esta duda se me irá, pero hoy me genera algo de inseguridad.
@@ -246,6 +246,12 @@ S
     - Aislar máquinas de la red comprometiendo lo mínimo posible a la actividad de la empresa
     - Documentar todo el proceso para tener evidencia de todas las acciones realizadas
     - Usar playbooks para estandarizar y mejorar la eficiencia de la respuesta
+    - Capturar una imagen forense de los dispositivos de la forma más precisa posible
+    - Primero recoleccionar la evidencia y después su análisis, ante la duda
+    - Recoger la información según el orden de volatilidad
+    - Intentar minimizar los cambios en la información recolectada de la máquina comprometida
+    - Aislar equipos adicionales además del "paciente cero" para evitar movimientos laterales del atacante
+
 
 - Errores típicos:
     - Tomar medidas a lo loco sin realizar una pequeña investigación previa
@@ -253,12 +259,25 @@ S
     - No hacer imagen de las evidencias volátiles (aunque haya algo de tiempo antes de que el daño pase a mayores)
     - No diferenciar bien entre normalización y desconflicción
     - Realizar solo una correlación, sin tener en cuenta todos los aspectos del incidente
+    - Ejecutar programas que cambien las fechas de los ficheros, alterando las pruebas
+    - Confiar en los programas del sistema en medio de un incidente, dentro de la máquina comprometida (también pueden estar comprometidos los propios programas del sistema)
+    - No saber cuando usar ATT&CK o RE&CT, según el incidente o la perspectiva que tenga el analista
+    - No calcular el hash de la evidencia antes de la copia y después de la copia para saber si fue manipulada durante el clonado.
+    - Bloquear IoCs como pollo sin cabeza: Puede tirar servicios legítimos o usuarios que no tienen nada que ver con el incidente por culpa de un falso positivo, empeorando la situación.
+    - No documentar el proceso: Dificulta enormemente aprender de los errores cometidos en el incidente y en futuras respuestas.
+    - Formatear a lo loco a la mínima de un incidente: Destruye la evidencia, y permite que el atacante vuelva por el mismo sitio, imposibilitando el análisis de cómo entró.
 
 ### 2.6) Glosario mínimo (términos y definiciones cortas)
 - RE&CT Framework: Marco de referencia para la respuesta de incidente, desde la perspectiva del defensor.
 - SOC: Sistema de seguridad que monitoriza y responde a amenazas de seguridad en una red.
 - Playbook: Documento que recoge los pasos y acciones predefinidas para responder a un incidente de seguridad.
 - EDR: Sistema de seguridad que monitoriza y analiza el comportamiento de los "endpoints" (dispositivos), buscando comportamientos sospechosos/maliciosos. Puede responder por sí mismo, por ejemplo, aislando el dispositivo.
+- Orden de volatilidad: Orden en el que se deben recolectar las evidencias digitales, según si almacenan la informacion de forma persistente o temporal.
+- Dispositivos de bloqueo de escritura: Dispositivos que impiden que se escriba en los dispositivos, permitiendo una copia forense sin alterar la evidencia.
+- Tácticas, técnicas y sub-técnicas (TTP): Formas en las que los atacantes pueden ejecutar sus ataques, según MITRE ATT&CK. 
+- Contención táctica: Acciones para ralentizar la expansión de un incidente a corto plazo.
+- Contención estratégica: Acciones para detener completamente la expansión del incidente a largo plazo.
+- Contención por capas: Contención realizada en múltiples niveles de la red. Están divididos en: Red, Identidad, Endpoints, Servicios y aplicaciones
 
 
 ## 3) (Opcional) Evidencias y recursos usados
@@ -276,4 +295,5 @@ Enlaza aquí evidencias (capturas, logs, configuraciones, salidas de comandos, e
 
 
 ## 4) Conclusión (cierre)
-- 
+- Este tema en mi opinión, fue de los más interesantes de la asignatura, ya que he aprendido bastante como poder analizar incidentes, los pasos a seguir en caso de ello, y hasta dar mini playbooks de como reaccionar ante las situaciones más comunes que vemos en las redes/día a día de un futuro empleado como nosotros. Además, gracias a esta unidad, comprendí mejor como funcionan los equipos de respuesta ante un incidente de ciberseguridad sin pensar de que hacen magia negra o algo por el estilo. 
+Además, para futuros trabajos o situaciones, que aunque no tengan mucho que ver con este curso, puede ser tremendamente útil saberlo para poder reaccionar mejor ante este tipo de situaciones, por lo que sin duda, lo miraré de nuevo en un futuro y más a menudo para poder recordarlo y tenerlo presente.
